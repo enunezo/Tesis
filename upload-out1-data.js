@@ -39,7 +39,8 @@ connectToDb(dburl).then(dbData => {
   }
 
   // Load data
-  const data = JSON.parse(fs.readFileSync(path.join(__dirname, 'out.json'), 'utf-8'));
+  // const data = JSON.parse(fs.readFileSync(path.join(__dirname, 'out.json'), 'utf-8'));
+  const data = require('./out.json');
   
   // Upload data
   let counter = 0;
