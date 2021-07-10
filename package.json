@@ -1,0 +1,25 @@
+{
+  "name": "tesis-negrita",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enunezo/Tesis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enunezo/Tesis/issues"
+  },
+  "homepage": "https://github.com/enunezo/Tesis#readme",
+  "dependencies": {
+    "async": "^3.2.0",
+    "corenlp": "^1.5.2",
+    "mongodb": "^3.6.10"
+  }
+}
