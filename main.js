@@ -6,7 +6,6 @@ const fs = require('fs');
 // Functions
 function processSentence (sentence) {
   return new Promise((resolve, reject) => {
-    // resolve({rawItems:[]});
     const connector = new corenlp.ConnectorServer({ dsn: 'http://localhost:9000' });
     const props = new corenlp.Properties();
     props.setProperty('annotators', 'tokenize,ssplit,pos,lemma,ner,parse');
@@ -113,6 +112,5 @@ function generateTriplets (parsedSentence) {
   procFn(() => {
     // fs.writeFileSync(__dirname+'/out.json', JSON.stringify(outTripletes))
   })
-  
 
 })()
