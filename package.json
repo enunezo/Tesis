@@ -20,6 +20,7 @@
   "dependencies": {
     "async": "^3.2.0",
     "corenlp": "^1.5.2",
-    "mongodb": "^3.6.10"
+    "mongodb": "^3.6.10",
+    "vivagraphjs": "^0.12.0"
   }
 }
