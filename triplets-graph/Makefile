@@ -1,0 +1,2 @@
+deploy:
+	@IC_PROJECT_ACCESS_TOKEN=AgRSwfUjeCnHaWR0HJG6fCvdSLzS2tB5zqod8CmDrsCd94KSLK ic-cli project 6153fd8d66da020009cb6933 upload-custom-webapp-version --custom-webapp-id=6153fdb2fe3b8200078cb1e4 --description="Version from cli" --folder-path=.
